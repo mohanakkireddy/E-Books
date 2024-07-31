@@ -3,7 +3,7 @@ package com.example.backend.authentication.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "portfolio_user")
 public class NewUser {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
